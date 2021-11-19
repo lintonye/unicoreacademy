@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 
 function App() {
   return (
-    <div className="dark:bg-gray-800 dark:text-gray-50 h-full flex flex-col justify-center items-center gap-10">
+    <div className="dark:bg-gray-800 dark:text-gray-50 h-full flex flex-col justify-center items-center gap-10 px-8">
       <Helmet>
         <title>Unicorn Academy</title>
         <meta name="description" content="Unicorn Academy" />
@@ -15,7 +15,7 @@ function App() {
         and grow together
       </h2>
       <Logo className="w-64" />
-      <button className="dark:border-gray-50 dark:hover:border-white dark:hover:text-white border-gray-600 px-8 py-3 border rounded-md text-lg">
+      <button className="dark:border-gray-50 dark:hover:border-blue-200 dark:hover:text-blue-200 border-gray-600 px-8 py-3 border rounded-md text-lg">
         <a href="https://discord.gg/ndZVE8HCd5">Discord</a>
       </button>
     </div>
