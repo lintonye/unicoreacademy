@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function Icon(props) {
+function Icon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       viewBox="0 0 506 512"
