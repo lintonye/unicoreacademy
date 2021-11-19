@@ -1,10 +1,15 @@
 import { useState } from "react";
 import Logo from "./Logo";
+import Helmet from "react-helmet";
 
 function App() {
   return (
     <div className="dark:bg-gray-800 dark:text-gray-50 h-full flex flex-col justify-center items-center gap-10">
-      <h1 className="text-4xl font-extrabold text-center">Unicorn Academy</h1>
+      <Helmet>
+        <title>Unicorn Academy</title>
+        <meta name="description" content="Unicorn Academy" />
+      </Helmet>
+      <h1 className="text-5xl font-extrabold text-center">Unicorn Academy</h1>
       <h2 className="text-2xl text-center max-w-xl">
         An open community where designers and developers learn from each other
         and grow together
