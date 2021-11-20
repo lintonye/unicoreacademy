@@ -4,13 +4,17 @@ import Helmet from "react-helmet";
 
 function App() {
   return (
-    <div className="dark:bg-gray-800 dark:text-gray-50 h-full flex flex-col justify-center items-center gap-10 px-8 bg-yellow-200">
+    <div className="dark:bg-gray-800 dark:text-gray-50 h-full flex flex-col justify-center items-center gap-4 px-8 bg-yellow-200 py-20 lg:gap-10">
       <Helmet>
         <title>Unicorn Academy</title>
-        <meta name="description" content="Unicorn Academy" />
+        <meta
+          name="description"
+          content="Unicorn Academy: An open community where designers and developers learn from each other
+        and grow together"
+        />
       </Helmet>
       <h1 className="text-5xl font-extrabold text-center">Unicorn Academy</h1>
-      <h2 className="text-2xl text-center max-w-xl">
+      <h2 className="text-xl lg:text-2xl text-center max-w-xl">
         An open community where designers and developers learn from each other
         and grow together
       </h2>
